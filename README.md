@@ -1,4 +1,10 @@
 # Getting Started with Create React App
+<h3>Testing application for Inventory management</h3>
+
+
+<div>
+  <h6>Attaching Screenshots of application screen for reference</h6>
+</div>  
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
