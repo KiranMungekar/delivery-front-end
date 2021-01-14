@@ -85,8 +85,8 @@ const ProductEdit =(props)=>{
     
 
     return(
-        <div>
-           <h1> {isProductPresent ? <span>Edit</span> : null} Product</h1>
+        <div style={{textAlign:'center'}}>
+           <h1> {isProductPresent ? <span>Edit</span> :  <span>Add</span>} Product</h1>
            <div className="">
                 <form name="productForm"  noValidate autoComplete="off" onSubmit={handleFormSubmit}>
                     <div>

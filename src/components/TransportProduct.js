@@ -50,7 +50,7 @@ const TransportProduct = () => {
         <div>
             <h1>Transport Information</h1>
             <MoveProduct />
-            <div style={{display:'flex', justifyContent:'space-between',flexWrap:'wrap'}}>
+            <div style={{display:'flex', justifyContent:'flex-start',flexWrap:'wrap'}}>
                 {productMovements.length > 0 ? productMovements.map(move=><TransportMovementDisplay {...move}/> ) : null}
             </div>
         

@@ -14,8 +14,14 @@ const useStyles = makeStyles((theme) => ({
     paper: {
       padding: theme.spacing(2),
       textAlign: 'center',
-      color: theme.palette.text.secondary,
+      color: theme.palette.text.primary,
     },
+    paperDark: {
+        padding: theme.spacing(2),
+        textAlign: 'center',
+        fontWeight:600,
+        backgroundColor:'#777D7C',
+      }
   }));
 
 
@@ -85,7 +91,7 @@ const ReportComponent = ()=>{
                             direction="row"
                             justify="center"
                             alignItems="center" spacing={0}>
-                        {columns.map(col=> {return(<Grid key={col.field} item xs={4}><Paper className={classes.paper}>{col.field}</Paper></Grid>)})}  
+                        {columns.map(col=> {return(<Grid key={col.field} item xs={4}><Paper className={classes.paperDark}>{col.field}</Paper></Grid>)})}  
                     </Grid>
                   
                     {report.length > 0 ?

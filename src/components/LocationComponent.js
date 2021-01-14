@@ -16,6 +16,7 @@ const useStyles = makeStyles((theme) => ({
       width: '50%',
       maxWidth: 360,
       backgroundColor: theme.palette.background.paper,
+      textAlign:'center'
     },
 }));
 
@@ -34,16 +35,21 @@ const LocationsComponent = () => {
     },[])
 
     return (
-        <div>
-            <div>
+        <div >
+            <div style={{display:'flex',justifyContent:'center'}}>
                 <h1>All Locations</h1>
             </div>
-            <div className="container">
+            <div className="" style={{display:'flex',justifyContent:'center'}}>
                 <div className={classes.root}>
-                    <List > 
+                    <List> 
                         {locations !== undefined && locations.length > 0 ? locations.map(location=> <LocationDisplayComponent  key={location._id} location={location}/>)  :null}
-                    </List>    
+                    </List>
+                       
                 </div>
+                 
+            </div>
+            <div style={{'display':'flex',justifyContent:'center'}}>
+                <Button variant="contained" color="primary">Add Location</Button>
             </div>
 
 
