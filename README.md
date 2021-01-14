@@ -6,7 +6,7 @@
   <h6>Attaching Screenshots of application screen for reference</h6>
   <div>
     <h5>Add and view location</h5>
-    <img src="C:\Users\puki\Documents\delivery\addLocation.png">
+    <img src="screenshots/addLocation.png">
   </div>
   
 </div>  
