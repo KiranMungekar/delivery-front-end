@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+body{
+  background-color: #f5f5f5;
 }
 
 .App-logo {
@@ -15,13 +19,38 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 2rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  font-size: 14px;
   color: white;
+}
+.App-header a{
+  font-size: 14px;
+  color: white;
+}
+
+.report-header{
+  border: 1px solid black;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+
+
+
+.container{
+  width: 80%;
+  padding: 2em;
+}
+
+.product-list{
+  display: flex;
+  justify-content: space-between;
 }
 
 .App-link {
