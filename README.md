@@ -5,8 +5,33 @@
 <div>
   <h6>Attaching Screenshots of application screen for reference</h6>
   <div>
-    <h5>Add and view location</h5>
+    <h5>1. Add and view location</h5>
     <img src="screenshots/addLocation.png">
+  </div>
+  <div>
+    <h5>2.View Products</h5>
+    <img src="screenshots/productList.png">
+  </div>
+  <div>
+    <h5>3. Add and Edit Product</h5>
+    <img src="screenshots/addProduct.png">
+  </div>
+  <div>
+    <h5>4. View product movements/transports list</h5>
+    <img src="screenshots/productMovementsInformation.png">
+  </div>
+  <div>
+    <h5>5. Move product 1</h5>
+    <img src="screenshots/moveProduct1.png">
+  </div>
+
+  <div>
+    <h5>6. Move product 2</h5>
+    <img src="screenshots/moveProduct2.png">
+  </div>
+  <div>
+    <h5>7. Warehouse reports</h5>
+    <img src="screenshots/warehouseReport.png">
   </div>
   
 </div>  
